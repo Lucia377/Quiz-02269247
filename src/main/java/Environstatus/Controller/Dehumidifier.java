@@ -16,12 +16,12 @@ public class Dehumidifier extends Controller {
 
     @Override
     public void update() {
-        // 写这类对象每次刷新时要做什么（如果不需要可留空）
+        // todo
     }
 
     @Override
     public void draw(Graphics g) {
-        // 例如画一个蓝色方块，写上名字 + info
+
         g.setColor(Color.BLUE);
         int x = 200;
         int y = 150;

@@ -25,7 +25,6 @@ public class Environmentalsys {
     public static void main(String[] args) {
         GraphicsConfiguration gc = null;
 
-        // 1. 创建 JFrame
         JFrame frame = new JFrame(gc);
         frame.setTitle("Simba's World - Wildlife Reserve");
         JLabel textLabel = new JLabel("My Initial Text");
@@ -62,7 +61,7 @@ public class Environmentalsys {
 
 
         // simulate every 30 seconds
-        runSimulation(canvas, ward, percen, monitor1);
+        runSimulation(canvas, ward, percen, level);
     }
     private static void runSimulation(MapCanvas canvas,
                                       Temperature ward,
